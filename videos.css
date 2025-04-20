@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+body {
+    background-color: #1E1E1E;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFD900;
+}
+
+header {
+    font-family: Impact, sans-serif;
+    background-color: #FFD900;
+    padding: 60px 20px 20px 20px;
+    font-size: 30px;
+    background-image: url(imagenes/Biografia-Superior.jpg);
+    height: 63px;
+}
+
+header a {
+    color: #F91F1A;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.principal {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-family: Impact, sans-serif;
+    color: #FFD900;
+    font-size: 120px;
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.galeria-videos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+
+.video {
+    text-align: center;
+    width: 400px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.video p {
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #FFD900;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.redes {
+    margin-bottom: 10px;
+}
+
+.redes img {
+    width: 25px;
+    margin: 0 10px;
+}
