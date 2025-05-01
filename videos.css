@@ -3,7 +3,7 @@
 body {
     background-color: #1E1E1E;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Impact', sans-serif;
     color: #FFD900;
 }
 
@@ -62,7 +62,7 @@ header a:hover {
     margin-top: 10px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 footer {
