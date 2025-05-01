@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+body {
+    background-color: #000000;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFD900;
+}
+
+header {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    padding: 60px 20px 20px 20px;
+    font-weight: bold;
+    font-size: 30px;
+    background-image: url(imagenes/TRENCH-HEADER.jpg);
+    height: 52px;
+    color: #000000;
+}
+
+header a {
+  color: #F91F1A;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.logo-bandito {
+  float: right;
+  margin-right: 20px;
+  font-size: 22px;
+  color: #F91F1A;
+}
+
+.principal {
+    width: 1024px;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.banner-trench {
+    background-image: url(imagenes/TRENCH-banner-inicio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 532px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-trench {
+    font-family: Impact, sans-serif;
+    font-size: 168px;
+    color: #FFD900;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.texto-historia {
+  text-align: justify;
+  font-size: 25px;
+  padding: 0px 40px;
+  line-height: 1.5;
+  color: #FFD900;
+}
+
+.galeria-trench {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 40px 50px;
+}
+
+.galeria-trench img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #FFD900;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.redes {
+  margin-bottom: 10px;
+}
+
+.redes img {
+  width: 25px;
+  margin: 0 10px;
+}
