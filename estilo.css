@@ -44,6 +44,7 @@ section {
   padding-left: 30px;
   padding-top: 26px;
   box-sizing: border-box;
+  font-weight: 600;
 }
 
 .derecho {
@@ -54,6 +55,7 @@ section {
     font-size: 18px;
     line-height: 1.5;
     text-align: justify;
+    font-weight: 600;
 }
 
 .titulobio {
@@ -70,7 +72,6 @@ section {
   color: black;
   padding: 8px;
   font-size: 16px;
-  font-weight: bold;
   margin-top: 15px;
   text-align: center;
 }
@@ -83,6 +84,11 @@ table {
 td {
   padding: 6px 8px;
   font-size: 16px;
+  
+}
+
+.table-special{
+    font-weight: 900;
 }
 
 footer {
@@ -97,3 +103,4 @@ footer {
 .clear {
   clear: both;
 }
+
